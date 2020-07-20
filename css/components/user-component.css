@@ -9,7 +9,7 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 28px;
+  border-radius: 39%;
   margin-right: 20px;
 }
 .user-component__title {
@@ -20,4 +20,29 @@
   margin-top: 8px;
   color: rgba(0, 0, 0, 0.4);
   font-size: 15px;
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__music-set {
+  border: 1px solid yellowgreen;
+  color: yellowgreen;
+  border-radius: 25%;
+}
+
+.user-component:last-child {
+  display: flex;
+  justify-content: space-between;
 }
