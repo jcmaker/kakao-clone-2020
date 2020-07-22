@@ -18,7 +18,7 @@
 
 .friends-screen__channel {
   margin-top: 25px;
-  border-top: 1px solid rgba(100, 100, 100, 0.3);
+  border-top: var(--main-border);
   padding-top: 15px;
 }
 .friends-screen__channel-header {
