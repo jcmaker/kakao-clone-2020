@@ -39,7 +39,15 @@
 .user-component__music-set {
   border: 1px solid yellowgreen;
   color: yellowgreen;
-  border-radius: 25%;
+  border-radius: 15px;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-component__music-set i {
+  margin-left: 5px;
 }
 
 .user-component:last-child {
